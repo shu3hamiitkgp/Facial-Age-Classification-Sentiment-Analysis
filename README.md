@@ -1,5 +1,10 @@
 # DSAEM-FinalProject
-Final project for course Data science and eng methods taken in Fall'22
+Final project for course Data science and eng methods taken in Fall'22. The project involves two parts - 
+
+1) Facial Age Classification
+2) Sentiment Analysis on Amazon Reviews
+
+## Facial Age Classification
 
 Our study is focused on developing a deep learning model to classify facial images into a range of age bands, the data used is taken from Kaggle - face age detection dataset (https://www.kaggle.com/datasets/arashnic/faces-age-detection-dataset)
 
@@ -21,7 +26,9 @@ The dataset has a variety of facial images (~20K) of different individuals label
 - With CNN model we were able to achieve a significantly higher accuracy (~87%)on the data with a difference of ~30%.
 - One major factor that we observed in down-performance of Resnet50 was the class imbalance due to which the correct predictions for classes like ‘Old’ and ‘Young’ were minimal.
 
-## Sentiment Analysis : Data Scraping
+--------------------------------------------------------------------------------------------------------------------
+
+## Sentiment Analysis : Data Scraping & Naive Bayes Application
 
 - For the Naive Bayes Classifier we have used the review’s data of Apple Airpods (2nd Gen.) from Amazon.
 - For HTML document’s parsing , beautifulsoup package is used along with requests_html library to make parsing simple and intuitive.
