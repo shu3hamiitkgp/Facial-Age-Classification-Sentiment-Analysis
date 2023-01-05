@@ -37,4 +37,4 @@ The dataset has a variety of facial images (~20K) of different individuals label
 - In this analysis we used Multinomial  Naive Bayes Algorithm. The classifier algorithm guesses the tag of a text using Bayes theorem and calculates each tag’s likelihood for the given sample and outputs the tag with the greatest chance.
 - The accuracy of the model turned out to be 96.6%
 
-Please have a look at the deck attached for a more detailed report. 
+Please have a look at the deck attached for a more detailed report. -Final_project_Team5.pdf
