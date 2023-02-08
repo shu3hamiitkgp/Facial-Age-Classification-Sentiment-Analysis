@@ -21,14 +21,23 @@ The dataset has a variety of facial images (~20K) of different individuals label
 - We dropped the sizes of images to 150 and 100 respectively, as the process was computationally extensive
 - We used stratified splitting to overcome class imbalance to a certain extent
 
+![Alt text](Images/Picture_Examples.png?raw=true "Data samples")
+
+![Alt text](Images/Class_distribution.png?raw=true "Class Distribution")
+
 ## Results and Model Comparisons
 
 - With CNN model we were able to achieve a significantly higher accuracy (~87%)on the data with a difference of ~30%.
 - One major factor that we observed in down-performance of Resnet50 was the class imbalance due to which the correct predictions for classes like ‘Old’ and ‘Young’ were minimal.
 
---------------------------------------------------------------------------------------------------------------------
+![Alt text](Images/Performance.png?raw=true "Performance comparison")
 
-## Sentiment Analysis : Data Scraping & Naive Bayes Application
+![Alt text](Images/Confusion_Matrix.png?raw=true "Confusion matrix")
+
+![Alt text](Images/Results.png?raw=true "Results")
+
+
+## Sentiment Analysis : Data Scraping
 
 - For the Naive Bayes Classifier we have used the review’s data of Apple Airpods (2nd Gen.) from Amazon.
 - For HTML document’s parsing , beautifulsoup package is used along with requests_html library to make parsing simple and intuitive.
